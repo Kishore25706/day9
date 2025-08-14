@@ -1,0 +1,38 @@
+package Day9;
+class Animall
+{
+                                     
+}
+class Birdd
+{
+	
+	void eat()
+	{
+		System.out.println("Eating");
+	}
+}
+class Dogg extends Birdd
+{
+	void bark()
+	{
+		System.out.println("Barking");
+	}
+	void display()
+	{
+		super.eat();
+		bark();
+	}
+}
+
+public class supercls2 {
+
+	public static void main(String[] args) {
+		Dog obj= new Dog();
+		obj.display();
+
+	}
+
+}
+
+
+
