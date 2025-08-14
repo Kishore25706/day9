@@ -1,0 +1,33 @@
+package Day9;
+
+public abstract class abstraction {
+abstract class Hero
+{
+	abstract void run();
+}
+class Honda extends Hero
+{
+	void run()
+	{
+		System.out.println("Vehicle");
+	}
+	void play()
+	{
+		System.out.println("Playing");
+	}
+}
+public class Main
+{
+	public static void main(String[] args) {
+	obj = new Hero();
+		obj.run();
+		Honda obj1 = new Honda();
+		obj1.play();
+}
+
+	
+		 
+
+	}
+
+}
