@@ -1,0 +1,30 @@
+package Day9;
+
+
+interface sum
+{
+	int max=100;
+	//max= 200;
+	void show();
+	static void display()
+	{
+		System.out.println("Displaying");
+	}
+}
+class MyClass implements sum
+{
+	public void show()
+	{
+		System.out.println("Showing");
+	}
+}
+public class inter {
+	public static void main(String[] args) {
+		sum.display();
+		MyClass obj= new MyClass();
+		obj.show();
+		
+
+	}
+
+}
